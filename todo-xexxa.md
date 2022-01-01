@@ -4,5 +4,5 @@
 - - Understanding the community
 - Sending files to/from SerenityOS
 - Keyboard shortcuts in SerenityOS
-- List of software with screenshots
+- List of software (GUI/cmd) with screenshots
 - Usefull links
