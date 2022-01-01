@@ -1,4 +1,4 @@
-** xexxa todo **
+**xexxa todo**
 - How to start contributing to SerenityOS
 - - Good first commit
 - - Understanding the community
