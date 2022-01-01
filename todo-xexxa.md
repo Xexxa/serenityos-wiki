@@ -5,4 +5,4 @@
 - Sending files to/from SerenityOS
 - Keyboard shortcuts in SerenityOS
 - List of software (GUI/cmd) with screenshots
-- Usefull links
+- Useful links
