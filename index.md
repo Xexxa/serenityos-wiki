@@ -1,4 +1,4 @@
-# SerenityOS Wiki
+# The unofficial SerenityOS Wiki
 
 Welcome to Serenity OS wiki pages.
 
