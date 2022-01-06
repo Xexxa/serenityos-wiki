@@ -25,7 +25,7 @@ __Option 1: Copy character from Font Editor__
 
 Select the character you want in Font Editor and press `✲ Ctrl` + `⇧ Shift` + `C` to copy the character.
 
-Option 2: Create character in terminal using js
+__Option 2: Create character in terminal using js__
 1. Open Terminal
 2. Type `js`
 3. Use console.log to generate character from hex, if you want the ¥ yen sign character type `console.log("\u00A5");`
