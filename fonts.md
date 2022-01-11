@@ -14,7 +14,7 @@
 | SerenitySans      |               |8-36    | .ttf |      |          | ✔️     |       |            |     |      |
 | Serifina          |               |10      | .font| ✔️   |          |        |✔️     |            |     |      |
 | Source            |               |10      | .font|      | ✔️       | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
-| Tiny              |               |6       | .font|      |          | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
+| [Tiny](/fonts/Tiny.md)|           |6       | .font|      |          | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
 
 ## Creating a font
 - Always include character FFFD &#xfffd; (https://www.unicode.org/charts/PDF/UFFF0.pdf), it's the fallback character if a glyph is missing.
