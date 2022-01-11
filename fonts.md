@@ -16,3 +16,10 @@
 - Always include character FFFD &#xfffd; (https://www.unicode.org/charts/PDF/UFFF0.pdf), it's the fallback character if a glyph is missing.
 - Give the font a filename in the following format NameStyleSize.ext (examples: KaticaRegular10.font)
 - If the font is primarly or exclusively for CJK characters then prefix the family with CJK and space "CJK Name" 
+
+## General design guidelines
+
+
+## Links
+[Unicode charts [unicode.org]](https://www.unicode.org/charts/)
+[SerenityOS Discord #fonts](https://discord.com/channels/830522505605283862/927893781968191508)
