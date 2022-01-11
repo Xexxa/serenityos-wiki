@@ -1,5 +1,6 @@
 # User guide
 ## Keyboard shortcuts
+
 | Shortcut | Action |
 | ---: | --- |
 | `✲ Ctrl` + `⎇ Alt` + `Space` | Open emoji picker |
