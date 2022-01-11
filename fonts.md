@@ -2,6 +2,7 @@
 
 | Family            |Size    |Format|Serif |Monospace |Regular |Italic |Bold Italic |Bold |Black
 | ---               |:---    |:---: |:---: |:---:     |:---:   |:---:  |:---:       |:---:|:---:
+| CJK Biáng         |36      | .font| ?    | ✔️       | ✔️     |       |            |     |
 | Csilla            |10/12   | .font|      | ✔️       | ✔️     |       |            | ✔️  | 
 | Katica            |10/12   | .font|      |          | ✔️     |       |            | ✔️  | 
 | Liberation Serif  |8-36    | .ttf | ✔️   |          | ✔️     | ✔️    | ✔️          | ✔️  |
