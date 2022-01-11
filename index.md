@@ -8,6 +8,10 @@ This project is community-driven, much like SerenityOS itself, with the mission 
 
 ## Sections
 
+[Fonts](fonts.md)
+
 [User guide](user-guide.md)
+
+[Webdevelopment for Browser](browser-for-developers.md)
 
 [Useful links](links.md)
