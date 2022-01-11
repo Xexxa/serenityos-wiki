@@ -24,6 +24,9 @@
 
 ## General design guidelines
 
+## Testing a script
+A good sample text for testing a script is the Universal Declaration of Human Rights (UDHR), there is 487 translations at https://unicode.org/udhr/ (unicode) that could be compared to the 530 translations available at https://www.ohchr.org/EN/UDHR/Pages/SearchByLang.aspx (pdf, html, sound).
+
 
 ## Links
 [Unicode charts [unicode.org]](https://www.unicode.org/charts/)
