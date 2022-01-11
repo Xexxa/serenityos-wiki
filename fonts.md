@@ -20,6 +20,7 @@
 - Always include character FFFD &#xfffd; ([https://www.unicode.org/charts/PDF/UFFF0.pdf](https://www.unicode.org/charts/PDF/UFFF0.pdf)), it's the fallback character if a glyph is missing.
 - Give the font a filename in the following format NameStyleSize.ext (examples: KaticaRegular10.font)
 - If the font is primarly or exclusively for CJK characters then prefix the family with CJK and space "CJK Name" 
+- If you want to encode for example Klingon or Tengwar, then follow the assignments of UCSUR[^1] 
 
 ## General design guidelines
 
@@ -28,3 +29,5 @@
 [Unicode charts [unicode.org]](https://www.unicode.org/charts/)
 
 [SerenityOS Discord #fonts](https://discord.com/channels/830522505605283862/927893781968191508)
+
+[^1]: [Under-ConScript Unicode Registry](https://www.kreativekorp.com/ucsur/)
