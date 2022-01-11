@@ -1,13 +1,13 @@
 # Fonts in SerenityOS
 
-| Family            |Format|Serif |Monospace |Regular |Italic |Bold Italic |Bold |Black
-| ---               |:---: |:---: |:---:     |:---:   |:---:  |:---:       |:---:|:---:
-| Csilla            | .font|      | ✔️       | ✔️     |       |            | ✔️  | 
-| Katica            | .font|      |          | ✔️     |       |            | ✔️  | 
-| Liberation Serif  | .ttf | ✔️   |          | ✔️     | ✔️    | ✔️          | ✔️  |
-| Liza              | .font|      | ✔️       | ✔️     |       |            | ✔️  | ✔️
-| Marieta           | .font|      |          | ✔️     |       |            | ✔️  | 
-| Pabbleton         | .font|      |          | ✔️     |       |            | ✔️  | 
-| SerenitySans      | .ttf |      |          | ✔️     |       |            |     |
-| Serifina          | .font| ✔️   |          |        |✔️     |            |     |
-| Tiny              | .font|      |          | ✔️     |       |            |     |
+| Family            |Size    |Format|Serif |Monospace |Regular |Italic |Bold Italic |Bold |Black
+| ---               |:---    |:---: |:---: |:---:     |:---:   |:---:  |:---:       |:---:|:---:
+| Csilla            |10/12   | .font|      | ✔️       | ✔️     |       |            | ✔️  | 
+| Katica            |10/12   | .font|      |          | ✔️     |       |            | ✔️  | 
+| Liberation Serif  |8-36    | .ttf | ✔️   |          | ✔️     | ✔️    | ✔️          | ✔️  |
+| Liza              |10/24/36| .font|      | ✔️       | ✔️     |       |            | ✔️  | ✔️
+| Marieta           |24/36   | .font|      |          | ✔️     |       |            | ✔️  | 
+| Pabbleton         |14      | .font|      |          | ✔️     |       |            | ✔️  | 
+| SerenitySans      |8-36    | .ttf |      |          | ✔️     |       |            |     |
+| Serifina          |10      | .font| ✔️   |          |        |✔️     |            |     |
+| Tiny              |6       | .font|      |          | ✔️     |       |            |     |
