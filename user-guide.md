@@ -1,6 +1,6 @@
 # User guide
 ## Keyboard shortcuts
-| Shortcut |Action |
+| Shortcut | Action |
 | ---: | --- |
 | `✲ Ctrl` + `⎇ Alt` + `Space` | Open emoji picker |
 | `⌘ Super` + `Space` | Open assistant |
