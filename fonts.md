@@ -17,7 +17,7 @@
 | [Tiny](/fonts/Tiny.md)|           |6       | .font|      |          | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
 
 ## Creating a font
-- Always include character FFFD &#xfffd; (https://www.unicode.org/charts/PDF/UFFF0.pdf), it's the fallback character if a glyph is missing.
+- Always include character FFFD &#xfffd; ([https://www.unicode.org/charts/PDF/UFFF0.pdf](https://www.unicode.org/charts/PDF/UFFF0.pdf)), it's the fallback character if a glyph is missing.
 - Give the font a filename in the following format NameStyleSize.ext (examples: KaticaRegular10.font)
 - If the font is primarly or exclusively for CJK characters then prefix the family with CJK and space "CJK Name" 
 
