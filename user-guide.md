@@ -7,6 +7,9 @@
 | `⌘ Super` + `Space` | Open assistant |
 | `F2` | Rename file |
 | `⌘ Super` + `↓ Down` | Minimize window |
+| `⌘ Super` + `↑ Up` | Maximize window |
+| `⌘ Super` + `← Left` | Tile window left |
+| `⌘ Super` + `→ Right` | Tile window right |
 | `⌘ Super` + `↹ Tab` | Cycle between windows |
 
 ## Settings
