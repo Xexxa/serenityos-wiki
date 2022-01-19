@@ -30,10 +30,10 @@
 - **Unicode charts:** Always check the Unicode charts if you do not know a script by heart. There is often useful information about the glyphs (similar glyphs for reference or if a glyph is based on another). [How to read the symbols in Unicode Charts](https://unicode.org/charts/About.html#Key)<br>![Screenshot from Unicode charts](/images/fonts-unicode-chart.png)
 
 ## Unicode PUA usage
-- If you want to add glyphs to Unicodes PUA(private use area) for use in SerenityOS, pick codepoints within the range 10CA00-10CFFF
+- If you want to add glyphs to Unicodes PUA(private use area) for use in SerenityOS, pick codepoints within the range 10CA00-10CFFF.
 
 - **Currently reserved ranges:**
-  - 10CD00-10CDFF Yak emojis https://serenityos.net/~xexxa/10CD Code points: 256, Assigned characters: 47
+  - 10CD00-10CDFF Yak emojis [https://serenityos.net/~xexxa/10CD](https://serenityos.net/~xexxa/10CD) Code points: 256, Assigned characters: 47.
 
 ## Practical
 - System fonts are located in `Base/res/fonts/` (repo) and `/res/fonts` (running SerenityOS)
