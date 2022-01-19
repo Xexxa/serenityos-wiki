@@ -17,26 +17,34 @@
 | [Tiny](/fonts/Tiny.md)|           |6       | .font|      |          | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
 
 ## Creating a font
-**Mandatory glyphs** Always include character FFFD &#xfffd; (<https://www.unicode.org/charts/PDF/UFFF0.pdf>), it's the fallback character if a glyph is missing.
+- **Mandatory glyphs** Always include character FFFD &#xfffd; (<https://www.unicode.org/charts/PDF/UFFF0.pdf>), it's the fallback character if a glyph is missing.
 
-**Filename:** Give the font a filename in the following format NameStyleSize.ext (examples: KaticaRegular10.font)
+- **Filename:** Give the font a filename in the following format NameStyleSize.ext (examples: KaticaRegular10.font)
 
-**CJK:** If the font is primarly or exclusively for CJK characters then prefix the family with CJK and space "CJK Name" 
+- **CJK:** If the font is primarly or exclusively for CJK characters then prefix the family with CJK and space "CJK Name" 
 
-**Constructed/artificial scripts:** If you want to encode for example Klingon or Tengwar, then follow the assignments of UCSUR[^1] 
+- **Constructed/artificial scripts:** If you want to encode for example Klingon or Tengwar, then follow the assignments of UCSUR[^1] 
 
-**Unicode charts:** Always check the Unicode charts if you do not know a script by heart. There is often useful information about the glyphs (similar glyphs for reference or if a glyph is based on another). [How to read the symbols in Unicode Charts](https://unicode.org/charts/About.html#Key)<br>![Screenshot from Unicode charts](/images/fonts-unicode-chart.png)
+- **Unicode charts:** Always check the Unicode charts if you do not know a script by heart. There is often useful information about the glyphs (similar glyphs for reference or if a glyph is based on another). [How to read the symbols in Unicode Charts](https://unicode.org/charts/About.html#Key)<br>![Screenshot from Unicode charts](/images/fonts-unicode-chart.png)
 
 ## Unicode PUA usage
-If you want to add glyphs to Unicodes PUA(private use area) for use in SerenityOS, pick codepoints within the range 10CA00-10CFFF
+- If you want to add glyphs to Unicodes PUA(private use area) for use in SerenityOS, pick codepoints within the range 10CA00-10CFFF
 
-**Currently reserved ranges:**
-- 10CD00-10CDFF https://serenityos.net/~xexxa/10CD Code points: 256, Assigned characters: 47 assigned
+- **Currently reserved ranges:**
+  - 10CD00-10CDFF Yak emojis https://serenityos.net/~xexxa/10CD Code points: 256, Assigned characters: 47
 
 ## Practical
-- System fonts are located in `Base/res/fonts/`
+- System fonts are located in `Base/res/fonts/` (repo) and `/res/fonts` (running SerenityOS)
+
+- [How to transfer files from QEMU to your host machine](https://github.com/SerenityOS/serenity/blob/master/Documentation/TransferringFiles.md)
 
 ## Commits and pull requests
+- **Before making a PR / Merge conflicts:** You can copy multiple glyphs in font editor(shift click to select a range), it is recommended that you have the habbit of copying the glyphs you added/modified to a fresh pull of the font-file and look for conflicting [pull request](https://github.com/SerenityOS/serenity/pulls) before creating a PR. There has been a few cases of merge conflicts or outdated font-files has removed glyphs.
+
+- **Commit:** Always include the codepoints for the glyphs you added or modified. Modified glyphs should also include how/why they were modified.
+
+- **PR:** A screenshot of what you added/edited makes it easier for maintainers to review your fantastic work.
+
 
 ## General design guidelines
 
