@@ -1,4 +1,4 @@
-# Fonts in SerenityOS
+# Fonts in SerenityOS (draft)
 
 | Family            |Default for    |Size    |Format|Serif |Monospace |Regular |Italic |Bold Italic |Bold |Black|Author
 | ---               |:---           |:---    |:---: |:---: |:---:     |:---:   |:---:  |:---:       |:---:|:---:|:---
@@ -17,10 +17,26 @@
 | [Tiny](/fonts/Tiny.md)|           |6       | .font|      |          | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
 
 ## Creating a font
-- Always include character FFFD &#xfffd; (<https://www.unicode.org/charts/PDF/UFFF0.pdf>), it's the fallback character if a glyph is missing.
-- Give the font a filename in the following format NameStyleSize.ext (examples: KaticaRegular10.font)
-- If the font is primarly or exclusively for CJK characters then prefix the family with CJK and space "CJK Name" 
-- If you want to encode for example Klingon or Tengwar, then follow the assignments of UCSUR[^1] 
+**Mandatory glyphs** Always include character FFFD &#xfffd; (<https://www.unicode.org/charts/PDF/UFFF0.pdf>), it's the fallback character if a glyph is missing.
+
+**Filename:** Give the font a filename in the following format NameStyleSize.ext (examples: KaticaRegular10.font)
+
+**CJK:** If the font is primarly or exclusively for CJK characters then prefix the family with CJK and space "CJK Name" 
+
+**Constructed/artificial scripts:** If you want to encode for example Klingon or Tengwar, then follow the assignments of UCSUR[^1] 
+
+**Unicode charts:** Always check the Unicode charts if you do not know a script by heart. There is often useful information about the glyphs (similar glyphs for reference or if a glyph is based on another). [How to read the symbols in Unicode Charts](https://unicode.org/charts/About.html#Key)<br>![Screenshot from Unicode charts](/images/fonts-unicode-chart.png)
+
+## Unicode PUA usage
+If you want to add glyphs to Unicodes PUA(private use area) for use in SerenityOS, pick codepoints within the range 10CA00-10CFFF
+
+**Currently reserved ranges:**
+- 10CD00-10CDFF https://serenityos.net/~xexxa/10CD Code points: 256, Assigned characters: 47 assigned
+
+## Practical
+- System fonts are located in `Base/res/fonts/`
+
+## Commits and pull requests
 
 ## General design guidelines
 
