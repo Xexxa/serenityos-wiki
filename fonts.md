@@ -53,6 +53,7 @@
 ## Testing a script
 A good sample text for testing (especially rarer) scripts is the Universal Declaration of Human Rights (UDHR), there is 487 translations at <https://unicode.org/udhr/> (unicode), the sample could then if needed be compared to one of the 530 translations available at <https://www.ohchr.org/EN/UDHR/Pages/SearchByLang.aspx> (pdf, html, sound).
 
+## Emojis
 
 ## Links
 [Unicode charts [unicode.org]](https://www.unicode.org/charts/)
