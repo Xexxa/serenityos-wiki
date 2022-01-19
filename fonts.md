@@ -21,7 +21,9 @@
 
 - **Filename:** Give the font a filename in the following format NameStyleSize.ext (examples: KaticaRegular10.font)
 
-- **CJK:** If the font is primarly or exclusively for CJK characters then prefix the family with CJK and space "CJK Name" 
+- **Metadata:** metadata.family contains the fonts "name", for example "Katica". metadata.name contains the font "name" and style, for example "Katica Regular".
+
+- **CJK:** If the font is primarly or exclusively for CJK characters then prefix metadata.family and metadata.name with CJK and space. "CJK Name" & "CJK Name Style"
 
 - **Constructed/artificial scripts:** If you want to encode for example Klingon or Tengwar, then follow the assignments of UCSUR[^1] 
 
@@ -49,7 +51,7 @@
 ## General design guidelines
 
 ## Testing a script
-A good sample text for testing a script is the Universal Declaration of Human Rights (UDHR), there is 487 translations at <https://unicode.org/udhr/> (unicode), the sample could then if needed be compared to one of the 530 translations available at <https://www.ohchr.org/EN/UDHR/Pages/SearchByLang.aspx> (pdf, html, sound).
+A good sample text for testing (especially rarer) scripts is the Universal Declaration of Human Rights (UDHR), there is 487 translations at <https://unicode.org/udhr/> (unicode), the sample could then if needed be compared to one of the 530 translations available at <https://www.ohchr.org/EN/UDHR/Pages/SearchByLang.aspx> (pdf, html, sound).
 
 
 ## Links
