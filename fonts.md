@@ -58,7 +58,7 @@ A good sample text for testing (especially rarer) scripts is the Universal Decla
 
 - Emojis are system-wide, no matter what font is used.
 
-- There is currently issues with [proportianl font's not scaling emojis](https://github.com/SerenityOS/serenity/issues/12001), with glyphs in the .font takes precedent over emojis and with FontEditor(widget size does not grow when more emojis are added).
+- There is currently issues with [proportional font's not scaling emojis](https://github.com/SerenityOS/serenity/issues/12001), with glyphs in the .font takes precedent over emojis and with FontEditor(widget size does not grow when more emojis are added).
 
 ## Links
 [Unicode charts [unicode.org]](https://www.unicode.org/charts/)
