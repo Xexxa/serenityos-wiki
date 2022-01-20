@@ -54,6 +54,11 @@
 A good sample text for testing (especially rarer) scripts is the Universal Declaration of Human Rights (UDHR), there is 487 translations at <https://unicode.org/udhr/> (unicode), the sample could then if needed be compared to one of the 530 translations available at <https://www.ohchr.org/EN/UDHR/Pages/SearchByLang.aspx> (pdf, html, sound).
 
 ## Emojis
+- Emojis are located in `Base/res/emoji/` (repo) and `/res/emoji` (running SerenityOS)
+
+- Emojis are system-wide, no matter what font is used.
+
+- There is currently issues with [proportianl font's not scaling emojis](https://github.com/SerenityOS/serenity/issues/12001), with glyphs in the .font takes precedent over emojis and with FontEditor(widget size does not grow when more emojis are added).
 
 ## Links
 [Unicode charts [unicode.org]](https://www.unicode.org/charts/)
