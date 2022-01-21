@@ -32,7 +32,7 @@ Select the character you want in Font Editor and press `✲ Ctrl` + `⇧ Shift` 
 __Option 2: Copy character in terminal__
 1. Open Terminal
 2. `copy "\u000000a5"`
-3. character is now in clipboard, `✲ Ctrl` + `V` to paste it somewhere
+3. Character is now in clipboard, `✲ Ctrl` + `V` to paste it somewhere
 
 __Option 3: Create character in terminal using js__
 1. Open Terminal
