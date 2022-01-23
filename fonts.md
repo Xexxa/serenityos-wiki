@@ -47,6 +47,11 @@
 
 - **PR:** A screenshot of what you added/edited makes it easier for maintainers to review your fantastic work.
 
+## Working with CJK (Chinese, Japanese and Korean)
+
+- **Katica:** currently glyphs with multiple variants in Katica uses simplefied Chinese, if that is not available it uses suitable Chinese with a <code>G*</code>-code[^2].
+
+- **CJK Biáng:** currently glyphs with multiple variants in CJK Biáng uses traditional Chinese.
 
 ## General design guidelines
 
@@ -60,9 +65,16 @@ A good sample text for testing (especially rarer) scripts is the Universal Decla
 
 - There are currently issues with [proportional font's not scaling emojis](https://github.com/SerenityOS/serenity/issues/12001), with glyphs in the .font taking precedent over emojis and with FontEditor(widget size does not grow when more emojis are added).
 
+## Trivia
+Katicabogárfélék is Hungarian for ladybug.
+
 ## Links
 [Unicode charts [unicode.org]](https://www.unicode.org/charts/)
 
 [SerenityOS Discord #fonts](https://discord.com/channels/830522505605283862/927893781968191508)
 
+[Using our font in Browser](browser-for-developers.md#libweb-and-fonts)
+
+## References
 [^1]: [Under-ConScript Unicode Registry](https://www.kreativekorp.com/ucsur/)
+[^2]: [Wikipedia: CJK Unified Ideographs](https://en.wikipedia.org/wiki/CJK_Unified_Ideographs)
