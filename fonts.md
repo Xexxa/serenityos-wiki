@@ -11,7 +11,7 @@
 | Marieta           |               |24/36   | .font|      |          | ✔️     |       |            | ✔️  |      | [@thankyouverycool](https://github.com/thankyouverycool)
 | Pabbleton         |               |14      | .font|      |          | ✔️     |       |            | ✔️  |      |
 | Roman             |               |10      | .font|  ✔️   |         | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
-| SerenitySans      |               |8-36    | .ttf |      |          | ✔️     |       |            |     |      |
+| SerenitySans      |               |8-36    | .ttf |      |          | ✔️     |       |            |     |      | [@sunverwerth](https://github.com/sunverwerth)
 | Serifina          |               |10      | .font| ✔️   |          |        |✔️     |            |     |      | [@thankyouverycool](https://github.com/thankyouverycool)
 | Source            |               |10      | .font|      | ✔️       | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
 | [Tiny](/fonts/Tiny.md)|           |6       | .font|      |          | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
