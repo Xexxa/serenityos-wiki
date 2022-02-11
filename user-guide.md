@@ -13,6 +13,7 @@
 | `⌘ Super` + `↹ Tab` | Cycle between windows |
 | `⇧ Shift` + `⎇ Alt` | Hold shift and press alt to toggle keymaps |
 | `✲ Ctrl` + `Shift` + `A` | Command Palette (inside software) |
+
 ## Settings
 
 
