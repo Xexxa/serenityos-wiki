@@ -5,7 +5,7 @@
 - <https://libjs.dev> SerenityOS's JavaScript Engine's Landing Page
 - <https://changelog.serenityos.org/> SerenityOS commits, grouped by component and month
 - <https://usermap.serenityos.org/> SerenityOS User Map
-- <https://github.com/kleinesfilmroellchen/yaksplained> Yaksplained – All the SerenityOS Yaks, explained!
+- <https://yaksplained.org> Yaksplained – All the SerenityOS Yaks, explained!
 
 ## Developers
 
