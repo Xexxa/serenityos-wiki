@@ -6,6 +6,7 @@
 - <https://changelog.serenityos.org/> SerenityOS commits, grouped by component and month
 - <https://usermap.serenityos.org/> SerenityOS User Map
 - <https://yaksplained.org> Yaksplained – All the SerenityOS Yaks, explained!
+- <https://happy-serenityos.linus.dev> ":^)" counters & graphs for other SerenityOS stats
 
 ## Developers
 
