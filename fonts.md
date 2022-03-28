@@ -2,6 +2,7 @@
 
 | Family            |Default for    |Size    |Format|Serif |Monospace |Regular |Italic |Bold Italic |Bold |Black|Author
 | ---               |:---           |:---    |:---: |:---: |:---:     |:---:   |:---:  |:---:       |:---:|:---:|:---
+| Ataraxia          |               |10      | .font|      | ✔️       | ✔️     |       |            |     |      | [@djwisdom](https://github.com/djwisdom)
 | Cathode           |               |10      | .font|      | ✔️       | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
 | CJK Biáng         |               |36      | .font| ?    | ✔️       | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
 | Csilla            |_text editor_, .txt|10/12| .font|     | ✔️       | ✔️     |       |            | ✔️  |       |
@@ -11,6 +12,8 @@
 | Marieta           |               |24/36   | .font|      |          | ✔️     |       |            | ✔️  |      | [@thankyouverycool](https://github.com/thankyouverycool)
 | Pabbleton         |               |14      | .font|      |          | ✔️     |       |            | ✔️  |      |
 | Roman             |               |10      | .font|  ✔️   |         | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
+| Satori            |               |10      | .font|      |          | ✔️     |       |           | ✔️    |      | [@djwisdom](https://github.com/djwisdom)
+| Satori Mono       |               |10      | .font|      | ✔️        | ✔️     |       |           | ✔️    |      | [@djwisdom](https://github.com/djwisdom)
 | SerenitySans      |               |8-36    | .ttf |      |          | ✔️     |       |            |     |      | [@sunverwerth](https://github.com/sunverwerth)
 | Serifina          |               |10      | .font| ✔️   |          |        |✔️     |            |     |      | [@thankyouverycool](https://github.com/thankyouverycool)
 | Source            |               |10      | .font|      | ✔️       | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
