@@ -9,6 +9,7 @@
 | Katica            |_system_, .html|10/12   | .font|      |          | ✔️     |       |            | ✔️  |      | 
 | Liberation Serif  |               |8-36    | .ttf | ✔️   |          | ✔️     | ✔️    | ✔️          | ✔️  |      | [@mattco98](https://github.com/mattco98)
 | Liza              |               |10/24/36| .font|      | ✔️       | ✔️     |       |            | ✔️  | ✔️    |
+| Lucidity          |               |12      | .font|      |         | ✔️     |       |            |    |      | [@djwisdom](https://github.com/djwisdom)
 | Marieta           |               |24/36   | .font|      |          | ✔️     |       |            | ✔️  |      | [@thankyouverycool](https://github.com/thankyouverycool)
 | Pabbleton         |               |14      | .font|      |          | ✔️     |       |            | ✔️  |      |
 | Roman             |               |10      | .font|  ✔️   |         | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
