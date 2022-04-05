@@ -2,14 +2,14 @@
 
 | Family            |Default for    |Size    |Format|Serif |Monospace |Regular |Italic |Bold Italic |Bold |Black|Author
 | ---               |:---           |:---    |:---: |:---: |:---:     |:---:   |:---:  |:---:       |:---:|:---:|:---
-| Ataraxia          |               |10      | .font|      | ✔️       | ✔️     |       |            |     |      | [@djwisdom](https://github.com/djwisdom)
+| Ataraxia          |               |10      | .font|      | ✔️       | ✔️     |       |            | ✔️   |      | [@djwisdom](https://github.com/djwisdom)
 | Cathode           |               |10      | .font|      | ✔️       | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
 | CJK Biáng         |               |36      | .font| ?    | ✔️       | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
 | Csilla            |_text editor_, .txt|10/12| .font|     | ✔️       | ✔️     |       |            | ✔️  |       |
-| Katica            |_system_, .html|10/12   | .font|      |          | ✔️     |       |            | ✔️  |      | 
+| Katica            |_system_, .html|10/12   | .font|      |          | ✔️     |       |           | ✔️  |      | 
 | Liberation Serif  |               |8-36    | .ttf | ✔️   |          | ✔️     | ✔️    | ✔️          | ✔️  |      | [@mattco98](https://github.com/mattco98)
 | Liza              |               |10/24/36| .font|      | ✔️       | ✔️     |       |            | ✔️  | ✔️    |
-| Lucidity          |               |12      | .font|      |         | ✔️     |       |            |    |      | [@djwisdom](https://github.com/djwisdom)
+| Lucidity          |               |12      | .font|      |         | ✔️     |       |            | ✔️  |      | [@djwisdom](https://github.com/djwisdom)
 | Marieta           |               |24/36   | .font|      |          | ✔️     |       |            | ✔️  |      | [@thankyouverycool](https://github.com/thankyouverycool)
 | Pabbleton         |               |14      | .font|      |          | ✔️     |       |            | ✔️  |      |
 | Roman             |               |10      | .font|  ✔️   |         | ✔️     |       |            |     |      | [@electrikmilk](https://github.com/electrikmilk)
