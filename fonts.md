@@ -45,7 +45,7 @@
 - [How to transfer files from QEMU to your host machine](https://github.com/SerenityOS/serenity/blob/master/Documentation/TransferringFiles.md)
 
 ## Commits and pull requests
-- **Before making a PR / Merge conflicts:** You can copy multiple glyphs in font editor(shift click to select a range), it is recommended that you have the habbit of copying the glyphs you added/modified to a fresh pull of the font-file and look for conflicting [pull request](https://github.com/SerenityOS/serenity/pulls) before creating a PR. There has been a few cases of merge conflicts or outdated font-files has removed glyphs.
+- **Before making a PR / Merge conflicts:** You can copy multiple glyphs in font editor(shift click to select a range), it is recommended that you have the habit of copying the glyphs you added/modified to a fresh pull of the font-file and look for conflicting [pull request](https://github.com/SerenityOS/serenity/pulls) before creating a PR. There has been a few cases of merge conflicts or outdated font-files has removed glyphs.
 
 - **Commit:** Always include the codepoints for the glyphs you added or modified. Modified glyphs should also include how/why they were modified.
 
