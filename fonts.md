@@ -1,6 +1,6 @@
 # Fonts in SerenityOS (draft)
 
-_The information in this table is available(and up-to-date) at https://fonts.serenityos.net/. _
+_The information in this table is available(and up-to-date) at https://fonts.serenityos.net/._
 
 | Family            |Default for    |Size    |Format|Serif |Monospace |Regular |Italic |Bold Italic |Bold |Black|Author
 | ---               |:---           |:---    |:---: |:---: |:---:     |:---:   |:---:  |:---:       |:---:|:---:|:---
