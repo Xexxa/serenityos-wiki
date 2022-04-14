@@ -1,6 +1,6 @@
 # Fonts in SerenityOS (draft)
 
-_The information in this table is available(and up-to-date) at https://fonts.serenityos.net/._
+_The information in this table is available(and up-to-date) at <https://fonts.serenityos.net/>._
 
 | Family            |Default for    |Size    |Format|Serif |Monospace |Regular |Italic |Bold Italic |Bold |Black|Author
 | ---               |:---           |:---    |:---: |:---: |:---:     |:---:   |:---:  |:---:       |:---:|:---:|:---
@@ -23,7 +23,7 @@ _The information in this table is available(and up-to-date) at https://fonts.ser
 | [Tiny](/fonts/Tiny.md)|           |6       | .font|      |          | ✔️     |       |            |     |      | [@Xexxa](https://github.com/Xexxa)
 
 ## Creating a font
-- Read our quick intro to using **FontEditor** at (<https://github.com/Xexxa/serenityos-wiki/blob/main/FontEditor/UsingFontEditor.md>)
+- Read our quick intro to using **FontEditor** at (<https://wiki.serenityos.net/FontEditor/UsingFontEditor.md>)
 - **Mandatory glyphs** Always include character FFFD &#xfffd; (<https://www.unicode.org/charts/PDF/UFFF0.pdf>), it's the fallback character if a glyph is missing.
 
 - **Filename:** Give the font a filename in the following format NameStylePresentationSize.ext (examples: KaticaRegular10.font)
