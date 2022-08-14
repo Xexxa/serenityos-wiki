@@ -12,6 +12,6 @@ This project is community-driven, much like SerenityOS itself, with the mission 
 
 [User guide](user-guide.md)
 
-[Webdevelopment for Browser](browser-for-developers.md)
+[Web Development for Browser](browser-for-developers.md)
 
 [Useful links](links.md)
