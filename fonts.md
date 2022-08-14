@@ -68,9 +68,17 @@ A good sample text for testing (especially rarer) scripts is the Universal Decla
 ## Emojis
 - Emojis are located in `Base/res/emoji/` (repo) and `/res/emoji` (running SerenityOS)
 
+- New emoji should be added to [emoji.txt](https://github.com/SerenityOS/serenity/blob/master/Base/home/anon/Documents/emoji.txt)
+
+- Emoji has the filename `U+{hex code}.png`, eg. `U+1F332.png`
+
+- The size of emoji is 7 px width and 10 px height. Some kind of agreement was reached in #fonts to allow the width to be 7px, 8px, 9px, 10px when needed for complex emoji but the goal is to keep it 7x10 if possible.
+
+- Emoji shall be optimized to remove unneccesarry meta-data, `optipng -strip all` is recommended. (This does on occation render the emoji unvieweble in SerenityOS so it might be a good idea to check before making a PR!)
+
 - Emojis are system-wide, no matter what font is used.
 
-- There are currently issues with [proportional font's not scaling emojis](https://github.com/SerenityOS/serenity/issues/12001), with glyphs in the .font taking precedent over emojis and with Emoji picker(widget size does not grow when more emojis are added).
+- There are currently issues with glyphs in the .font taking precedent over emojis and with Emoji picker(not all emojis showing).
 
 ## Trivia
 Katicabogárfélék is Hungarian for ladybug.
