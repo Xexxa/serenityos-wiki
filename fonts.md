@@ -74,7 +74,7 @@ A good sample text for testing (especially rarer) scripts is the Universal Decla
 
 - The size of emoji is 7 px width and 10 px height. Some kind of agreement was reached in #fonts to allow the width to be 7px, 8px, 9px, 10px when needed for complex emoji but the goal is to keep it 7x10 if possible.
 
-- Emoji shall be optimized to remove unneccesarry meta-data, `optipng -strip all` is recommended. (This does on occation render the emoji unvieweble in SerenityOS so it might be a good idea to check before making a PR!)
+- Emoji shall be optimized to remove unneccesarry meta-data, `optipng -strip all` is recommended. ~~(This does on occation render the emoji unvieweble in SerenityOS so it might be a good idea to check before making a PR!)~~ (Fixed in https://github.com/SerenityOS/serenity/pull/14910)
 
 - Emojis are system-wide, no matter what font is used.
 
