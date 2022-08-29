@@ -68,7 +68,7 @@ A good sample text for testing (especially rarer) scripts is the Universal Decla
 ## Emojis
 - Emojis are located in `Base/res/emoji/` (repo) and `/res/emoji` (running SerenityOS)
 
-- New emoji should be added to [emoji.txt](https://github.com/SerenityOS/serenity/blob/master/Base/home/anon/Documents/emoji.txt)
+- ~~New emoji should be added to [emoji.txt](https://github.com/SerenityOS/serenity/blob/master/Base/home/anon/Documents/emoji.txt)~~. New emojis are no longer required to be added to emoji.txt. This is automatically handled by a script during CI run.
 
 - Emoji has the filename `U+{hex code}.png`, eg. `U+1F332.png`
 
