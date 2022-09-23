@@ -80,6 +80,8 @@ A good sample text for testing (especially rarer) scripts is the Universal Decla
 
 - There are currently issues with glyphs in the .font taking precedent over emojis and with Emoji picker(not all emojis showing).
 
+- The commit message when adding emoji should contain the glyph, name and codepoint. You can automatically generate these with `Meta/generate-emoji-txt.sh Build/i686/UCD/emoji-test.txt /folder/to/the/emoji/you/have/made /the/file/you/want/the/list/of/emoji/in/the/right/format/commit.txt`
+
 ## Trivia
 Katicabogárfélék is Hungarian for ladybug.
 
