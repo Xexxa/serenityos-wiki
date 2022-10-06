@@ -70,9 +70,11 @@ A good sample text for testing (especially rarer) scripts is the Universal Decla
 
 - ~~New emoji should be added to [emoji.txt](https://github.com/SerenityOS/serenity/blob/master/Base/home/anon/Documents/emoji.txt)~~. New emojis are no longer required to be added to emoji.txt. This is automatically handled by a script during CI run.
 
-- Emoji has the filename `U+{hex code}.png`, eg. `U+1F332.png`
+- Emoji has the filename `U+{hex code}.png`, eg. `U+1F332.png`, emoji with multiple codepoints is separated with underscore, eg. `U+1F1EE_U+1F1F8.png`
 
-- The size of emoji is 7 px width and 10 px height. Some kind of agreement was reached in #fonts to allow the width to be 7px, 8px, 9px, 10px when needed for complex emoji but the goal is to keep it 7x10 if possible.
+- Emoji presentation selectors(**U+FE0F**) has to be excluded from the filename of emoji with multiple codepoints [#14917](https://github.com/SerenityOS/serenity/pull/14917) Polar Bear 🐻‍❄️ with the codepoints `U+1F43B U+200D U+2744 U+FE0F` gets the filename `U+1F43B_U+200D_U+2744.png`
+
+- The size of emoji is 7 px width and always **10 px height**. Some kind of agreement was reached in #fonts to allow the width to be 7px, 8px, 9px, 10px when needed for complex emoji but the goal is to keep it 7x10 if possible.
 
 - Emoji shall be optimized to remove unneccesarry meta-data, `optipng -strip all` is recommended. ~~(This does on occation render the emoji unvieweble in SerenityOS so it might be a good idea to check before making a PR!)~~ (Fixed in https://github.com/SerenityOS/serenity/pull/14910)
 
@@ -81,6 +83,13 @@ A good sample text for testing (especially rarer) scripts is the Universal Decla
 - There are currently issues with glyphs in the .font taking precedent over emojis and with Emoji picker(not all emojis showing).
 
 - The commit message when adding emoji should contain the glyph, name and codepoint. You can automatically generate these with `Meta/generate-emoji-txt.sh Build/i686/UCD/emoji-test.txt /folder/to/the/emoji/you/have/made /the/file/you/want/the/list/of/emoji/in/the/right/format/commit.txt`
+
+- Flag emoji: The visible part should, unlike the other emoji, be 10x7 if possible with transparant padding on the y-axis. Some flags is more suitable as 9x7, 10x6, etc. Some flexability is allowed.
+
+![image](https://user-images.githubusercontent.com/93391300/194284891-1c18fb07-0f2a-46b5-9e06-2b1d775caea2.png)
+
+*A 10x7 flag in a 10x10 canvas*
+
 
 ## Trivia
 Katicabogárfélék is Hungarian for ladybug.
